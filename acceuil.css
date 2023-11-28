@@ -49,7 +49,7 @@ nav ul li a:hover{
     transition: .3s;
 }
 .seach{
-    width: 40vh;
+    width: 20vw;
     height: 6vh;
     border: none;
     border-radius: 1vh;
@@ -67,7 +67,7 @@ nav ul li a:hover{
     font-family: Tahoma;
     background-color: #a7612d;
     height: 6vh;
-    width: 20vh;
+    width: 10vw;
     border-radius: 0.9vh;
     border: none;
     transition: border 1s ease-in;
@@ -109,7 +109,7 @@ nav ul li a:hover{
     font-weight: bolder;
     font-style: italic;
     font-family: Tahoma;
-    width: 40vh;
+    width: 30vw;
     height: 8vh;
     background-image:linear-gradient(to right,#a7612d,white);
     border-radius: 2vh;
@@ -122,7 +122,7 @@ nav ul li a:hover{
     transform: scale(1.02,1);
 }
 .desig_N°1{
-    width: 100vh;
+    width: 50vw;
     background-color: white;
     height: 10vh;
     position: absolute;
@@ -142,6 +142,13 @@ nav ul li a:hover{
     padding-left: 1.25vh;
     padding-right: 1.25vh;
 }
+.chilnode1{
+    border: 1px solid #a7612d;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 40vw;
+
+}
 .box_2{
     position: relative;
     top: 1.25vh;
@@ -152,7 +159,7 @@ nav ul li a:hover{
 .Genre_image{
     position: relative;
     top: 1vh;
-    width: 25vh;
+    width: 13vw;
     height: 25vh;
     background-color: white;
     border-top-right-radius: 2.8vh;
@@ -167,7 +174,7 @@ nav ul li a:hover{
     box-shadow: 0 0 2.8vh white;
 }
 .box_3{
-    width: 100%;
+    width: 100vw;
     height: 40vh;
     background-color: #a7612d;
     align-items: center;
@@ -175,7 +182,7 @@ nav ul li a:hover{
 }
 .b3chilnode{
     position: relative;
-    width: 80%;
+    width: 80vw;
     height: 40vh;
     top: 10%;
     left: 7%;
@@ -188,13 +195,13 @@ nav ul li a:hover{
 }
 .b3chilnode div{
     height: 45vh;
-    width: 45vh;
+    width: 45vw;
     background-color: white;
     padding-left: 5vh;
     padding-right: 5vh;
 }
 .services_img{
-    width: 20vh;
+    width: 10vw;
 }
 .box_4{
     padding-top: 30vh;
@@ -209,7 +216,7 @@ nav ul li a:hover{
     font-family: Tahoma;
     background-color: #a7612d;
     height: 7vh;
-    width: 50vh;
+    width: 20vw;
     border-radius: 2vh;
     border: none;
     transition: border 1s ease-in;
@@ -234,8 +241,8 @@ nav ul li a:hover{
     padding-right: 15vh;
 }
 .box_5 div{
-    width: 300px;
-    height: 250px;
+    width: 25vw;
+    height: 45vh;
     background-color: #a7612d;
     border-top-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -245,6 +252,10 @@ nav ul li a:hover{
 }
 .Article{
     transition: opacity 0.3s ease-in-out;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    width: 25vw;
+    height: 45vh;
 }
 .Article:not(:hover){
     opacity: 0.3;
@@ -254,7 +265,7 @@ nav ul li a:hover{
     height: 70vh;
     background-color: #a7612d;
     align-items: center;
-    padding-top:5px;
+    padding-top:2vh;
     display: flex;
     justify-content: space-between;
 }
@@ -273,11 +284,48 @@ nav ul li a:hover{
 .carrousel div>:hover{
     opacity: 1;
 }
+._img1{
+     width:20vw;
+     background-color: rgb(255, 255, 255);
+     height: 45vh;
+     position: relative;
+     top: 10vh;}
+
+._img2{
+    width: 13vw;
+    height:30vh; 
+    background-color: white;
+    position: relative;top: 25vh;}
+    
+._img3{
+    width: 13vw; 
+    height:25vh; 
+    background-color: white;
+    position: relative;
+    top: 30vh}
+
+._imge1{
+    width: 20vw;
+    height: 45vh;
+    border-radius: 8px;
+}
+
+._imge2{
+    width: 13vw;
+    height: 30vh;
+    border-radius: 8px}
+
+._imge3{
+    width: 13vw;
+    height:25vh ;
+    border-radius: 8px;}
+
+
 .form{
-    position: relative;right: 20px; width: 40%;height: 60vh;
+    position: relative;right: 2vw; width: 40vw;height: 60vh;
 }
 .box_form{
-    width:75vh; background-color: #cfa881;
+    width:35vw; background-color: #cfa881;
     height: 80vh;
     position: relative;
     top: 0.1vh;left: 3.5vh;
@@ -300,11 +348,12 @@ nav ul li a:hover{
     justify-content: space-between;
 }
 .box_form_prod div{
-    width: 30vh;
+    width: 20vw;
     height: 25vh;
 }
 .entré_de_la_commandes{
     border-radius: 1vh;
+    width: 16vw;
 }
 .box_7{
     width: 100%;
@@ -350,8 +399,8 @@ nav ul li a:hover{
     width: 40%;
 }
 .internaute{
-    width: 7vh;
-    height: 7vh;
+    width: 4vw;
+    height: 9vh;
     border-radius: 50%;
     background-color: #a7612d;
 }
@@ -361,7 +410,7 @@ nav ul li a:hover{
     font-family: Tahoma;
     background-color: #a7612d;
     height: 6vh;
-    width: 15vh;
+    width: 7vw;
     border-radius: 0.9vh;
     border: none;
     transition: border 1s ease-in;
@@ -379,8 +428,12 @@ nav ul li a:hover{
     width: 100%;height: 90vh;background-color: white;display: flex;justify-content: space-between;
 }
 .pdg{
-    position: relative;left: 40px;top: 12vh;box-shadow: 0 0 10px #a7612d;
+    position: relative;
+    left: 40px;
+    top: 10vh;
+    box-shadow: 0 0 10px #a7612d;
     transition: transform 0.3s ease-in-out;
+    width:30vw
 }
 .pdg:hover{
     top: 10vh;
@@ -392,7 +445,10 @@ nav ul li a:hover{
     font-style: italic;
     font-family: Tahoma;
 }
-.qdiv{
+._Quest{
+    width: 55vw;
+}
+.qdiv1{
     position: relative;
     height: 12vh;
     border: 0.1vh solid #a7612d;
@@ -400,8 +456,57 @@ nav ul li a:hover{
     border-radius:2.4vh ;
     box-shadow: 0 0 0.8vh #a7612d;
     transition: transform 0.5s ease-in-out;
+    width: 55vw ;
 }
-.qdiv:hover{
+.qdiv1:hover{
+    transition: 0.25ms;
+    transform: skew(10deg);
+    box-shadow: 0 0 20px #a7612d;
+}
+
+.qdiv2{
+    position: relative;
+    height: 12vh;
+    border: 0.1vh solid #a7612d;
+    background-color:#cfa881;
+    border-radius:2.4vh ;
+    box-shadow: 0 0 0.8vh #a7612d;
+    transition: transform 0.5s ease-in-out;
+    width: 45vw ;
+}
+.qdiv2:hover{
+    transition: 0.25ms;
+    transform: skew(10deg);
+    box-shadow: 0 0 20px #a7612d;
+}
+
+.qdiv3{
+    position: relative;
+    height: 12vh;
+    border: 0.1vh solid #a7612d;
+    background-color:#cfa881;
+    border-radius:2.4vh ;
+    box-shadow: 0 0 0.8vh #a7612d;
+    transition: transform 0.5s ease-in-out;
+    width: 35vw ;
+}
+.qdiv3:hover{
+    transition: 0.25ms;
+    transform: skew(10deg);
+    box-shadow: 0 0 20px #a7612d;
+}
+
+.qdiv4{
+    position: relative;
+    height: 12vh;
+    border: 0.1vh solid #a7612d;
+    background-color:#cfa881;
+    border-radius:2.4vh ;
+    box-shadow: 0 0 0.8vh #a7612d;
+    transition: transform 0.5s ease-in-out;
+    width: 25vw ;
+}
+.qdiv4:hover{
     transition: 0.25ms;
     transform: skew(10deg);
     box-shadow: 0 0 20px #a7612d;
